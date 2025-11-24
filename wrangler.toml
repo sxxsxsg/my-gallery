@@ -1,0 +1,8 @@
+name = "my-gallery" # 替换成您的 Pages 项目名称
+compatibility_date = "2025-11-01" # 使用一个近期的日期即可
+
+[pages]
+build_output_dir = "dist"
+[[r2_buckets]]
+binding = "GALLERY_BUCKET"
+bucket_name = "mypic"
